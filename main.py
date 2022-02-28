@@ -23,12 +23,14 @@ timmy.width(30)
 timmy.speed(0)
 turtle.colormode(255)
 
-def homepostion(x,y):
+
+def home_position(x, y):
     timmy.pu()
     begin_x_position = x
     begin_y_position = y
     timmy.setpos(begin_x_position, begin_y_position)
     return begin_x_position, begin_y_position
+
 
 def draw(pos):
     begin_xy_pos = pos
@@ -46,7 +48,7 @@ def draw(pos):
         timmy.setpos(next_xy_pos)
 
 
-homepostion(-230, -220)
+home_position(-230, -220)
 draw(timmy.pos())
 
 
