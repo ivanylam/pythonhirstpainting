@@ -19,7 +19,7 @@ color_list = [(200, 175, 117), (224, 36, 24), (210, 221, 213), (168, 106, 57), (
 
 timmy = turtle.Turtle()
 timmy.hideturtle()
-timmy.width(20)
+timmy.width(30)
 timmy.speed(0)
 turtle.colormode(255)
 
@@ -46,8 +46,7 @@ def draw(pos):
         timmy.setpos(next_xy_pos)
 
 
-homepostion(-200,-200)
-print(timmy.pos())
+homepostion(-230, -220)
 draw(timmy.pos())
 
 
